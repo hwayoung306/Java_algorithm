@@ -2,7 +2,7 @@ package 알고리즘Basic;
 
 import java.util.Scanner;
 
-public class Main {
+public class test1_곱하기 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

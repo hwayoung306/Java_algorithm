@@ -19,7 +19,7 @@ public class test {
 				n /= 10;
 			} else {
 				check = false;
-				break;
+				break; 
 			}
 		}
 

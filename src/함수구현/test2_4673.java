@@ -3,7 +3,7 @@ package 함수구현;
 public class test2_4673 {
 
 	public static int check(int n) {
-		
+		  
 		int sum = n;
 		while(n!=0) {
 			sum += n%10;

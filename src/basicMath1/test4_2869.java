@@ -14,7 +14,7 @@ public class test4_2869 {
 		
 		int a = Integer.parseInt(st.nextToken()); // up
 		int b = Integer.parseInt(st.nextToken()); // down
-		int c = Integer.parseInt(st.nextToken()); // ±æÀÌ
+		int c = Integer.parseInt(st.nextToken()); // ê¸¸ì´
 		
 		int day = (c-b)/(a-b);
 		

@@ -12,7 +12,6 @@ public class test4_3052 {
 		
 		for(int i = 0; i<10; i++) {
 			h.add(sc.nextInt() % 42);
-			// �Է� ���� ���� �������� add �޼ҵ带 ���� HashSet�� ����
 		}
 		
 		sc.close();

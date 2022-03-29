@@ -1,13 +1,26 @@
 package basicMath1;
 
+import java.io.IOException;
+import java.util.Scanner;
+
 public class test5_10250 {
 
-	public static void main(String[] args) {
-		// 정문으로부터 짧은 거리
-		// 각 층에 W개의 방이 있는 H층 건물  1<=H w <= 99
-		// 엘리베이터는 가장 왼쪽에 hxw 호텔
-		// 정문은 일층 엘리베이터 바로 앞에
+	public static void main(String[] args) throws IOException {
 		
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		
+		
+		for(int i = 0; i < t; i++) {
+			int h = sc.nextInt();
+			int w = sc.nextInt();
+			int n = sc.nextInt();
+			
+			if(n%h == 0) {
+				System.out.println((h*100)+(n/h));
+			}else {
+				System.out.println((n%h)*100+(n/h+1));
+			}
+		}
 	}
-
 }

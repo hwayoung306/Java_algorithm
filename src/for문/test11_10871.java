@@ -1,5 +1,4 @@
-package for¹®;
-
+package forë¬¸;
 import java.util.Scanner;
 
 public class test11_10871 {
@@ -12,12 +11,12 @@ public class test11_10871 {
 		int x = sc.nextInt();
 		int a [] = new int[n];
 		
-		//¼ö¿­¿¡ ³Ö±â
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö±ï¿½
 		for(int i = 0; i < n; i++) {
 			a[i] = sc.nextInt();			
 		}
 		
-		//¼ö¿­°ú xºñ±³ÇÏ±â
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ xï¿½ï¿½ï¿½Ï±ï¿½
 		for(int i =0;i<n; i++) {
 			if(a[i] < x) {
 				System.out.print(a[i] + " ");

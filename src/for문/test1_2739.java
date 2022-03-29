@@ -1,4 +1,4 @@
-package for¹®;
+package forë¬¸;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ public class test1_2739 {
 
 	public static void main(String[] args) {
 		
-		//NÀ» ÀÔ·Â ¹ÞÀº µÚ, ±¸±¸´Ü N´ÜÀ» Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À
+		//Nï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Nï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½ï¿½Ï½Ã¿ï¿½
 		
 		Scanner sc = new Scanner(System.in);
 		

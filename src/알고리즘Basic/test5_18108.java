@@ -1,4 +1,5 @@
-package ¾Ë°í¸®ÁòBasic;
+package ì•Œê³ ë¦¬ì¦˜Basic;
+
 
 import java.util.Scanner;
 

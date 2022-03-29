@@ -1,4 +1,4 @@
-package ¹è¿­1Â÷¿ø;
+package ë°°ì—´1ì°¨ì›;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class test4_3052Hash {
 				boolean check = false;
 				for (int j = 0; j < i; j++) {
 					if (arr[i] == arr[j]) {
-						check = true; // °°Àº ¼ö°¡ ÀÖÀ» °æ¿ì
+						check = true; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
 						break;
 					} else {
 						check = false;

@@ -1,26 +1,16 @@
-package ¾Ë°í¸®ÁòBasic;
+package ì•Œê³ ë¦¬ì¦˜Basic;
 
 import java.util.Scanner;
 
-public class test1_°öÇÏ±â {
+public class test1_ê³±í•˜ê¸°{
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		int A = 0;
-		int B = 0;
-		
-		int Check = sc.nextInt();
-		if(Check>0) {
-			A = Check;
-		}
-		
-		int Check2 = sc.nextInt();
-		if(Check2 < 10) {
-			B = Check2;
-		}
-		
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+	
 		System.out.println(A*B);
 	}
 }

@@ -1,5 +1,4 @@
-package for¹®;
-
+package forë¬¸;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;

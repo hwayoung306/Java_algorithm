@@ -1,8 +1,8 @@
-package ¾Ë°í¸®ÁòBasic;
+package ì•Œê³ ë¦¬ì¦˜Basic;
 
 import java.util.Scanner;
 
-public class test4_Áßº¹ {
+public class test4_ì¤‘ë³µ{
 
 	public static void main(String[] args) {
 		String id = "joonas";

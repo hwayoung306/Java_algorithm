@@ -1,4 +1,4 @@
-package ¹è¿­1Â÷¿ø;
+package ë°°ì—´1ì°¨ì›;
 
 import java.util.Scanner;
 
@@ -14,13 +14,13 @@ public class test3_2577 {
 		int c = sc.nextInt();
 		int result = a*b*c;
 		int[] arr = {0,0,0,0,0,0,0,0,0,0};
-		int d = 10; //³ª´­ ¼ö
-		int e = 0; //¸ò
-		int f = 0; //³ª¸ÓÁö
+		int d = 10; //ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
+		int e = 0; //ï¿½ï¿½
+		int f = 0; //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		
 		while(true) {
-			f = result % 10; //ÀÏÀÇÀÚ¸®
-			e = result / 10; //ÀÏÀÇÀÚ¸®¸¦ –A ¸ò
+			f = result % 10; //ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½
+			e = result / 10; //ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ï¿½ï¿½ ï¿½A ï¿½ï¿½
 			result = e;
 					
 			for(int i = 0; i < arr.length; i ++) {

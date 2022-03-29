@@ -1,4 +1,4 @@
-package ¹è¿­1Â÷¿ø;
+package ë°°ì—´1ì°¨ì›;
 
 import java.util.HashSet;
 import java.util.Scanner;
@@ -12,7 +12,7 @@ public class test4_3052 {
 		
 		for(int i = 0; i<10; i++) {
 			h.add(sc.nextInt() % 42);
-			// ÀÔ·Â ¹ŞÀº °ªÀÇ ³ª¸ÓÁö¸¦ add ¸Ş¼Òµå¸¦ ÅëÇØ HashSet¿¡ ÀúÀå
+			// ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ add ï¿½Ş¼Òµå¸¦ ï¿½ï¿½ï¿½ï¿½ HashSetï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		}
 		
 		sc.close();

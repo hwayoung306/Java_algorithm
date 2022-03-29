@@ -1,4 +1,4 @@
-package for¹®;
+package forë¬¸;
 
 import java.util.Scanner;
 

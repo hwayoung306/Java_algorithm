@@ -1,11 +1,11 @@
-package for¹®;
+package forë¬¸;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
-// ¿¹¿ÜÃ³¸® (ÀÔ·Â¹Þ´Â°Ô ²À String Å¸ÀÔÀÌ¾î¾ß ÇÏ±â ‹š¹®¿¡)
+// ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ (ï¿½Ô·Â¹Þ´Â°ï¿½ ï¿½ï¿½ String Å¸ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 import java.io.IOException;
 
 public class test4_15552 {
@@ -13,25 +13,25 @@ public class test4_15552 {
 	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
 
-		// BufferReader ºÒ·¯¿À±â
+		// BufferReader ï¿½Ò·ï¿½ï¿½ï¿½ï¿½ï¿½
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		// BufferWriter ºÒ·¯¿À±â
+		// BufferWriter ï¿½Ò·ï¿½ï¿½ï¿½ï¿½ï¿½
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		// ÀÔ·Â¹Þ´Â°Í ºÒ·¯¿À±â br.readLineÀÌ StringÀÌ±â ¶§¹®¿¡ int·Î Çüº¯È¯
+		// ï¿½Ô·Â¹Þ´Â°ï¿½ ï¿½Ò·ï¿½ï¿½ï¿½ï¿½ï¿½ br.readLineï¿½ï¿½ Stringï¿½Ì±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ intï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È¯
 		int T = Integer.parseInt(br.readLine());
 		
-		// ReadÇÑ µ¥ÀÌÅÍ°¡ Line´ÜÀ§·Î¸¸ ³ª´²Áö±â ¶§¹®¿¡ °ø¹é´ÜÀ§·Î µ¥ÀÌÅÍ¸¦ °¡°øÇÏ±â À§ÇØ ¸Þ¼Òµå È£Ãâ
+		// Readï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í°ï¿½ Lineï¿½ï¿½ï¿½ï¿½ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¼Òµï¿½ È£ï¿½ï¿½
 		StringTokenizer st;
 		
 		for(int i = 0; i < T; i++) {
-			// ÀÔ·Â¹ÞÀº ³»¿ëÀ» °ø¹é´ÜÀ§·Î ³ª´©°Ô ÀÐ±â!
+			// ï¿½Ô·Â¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ð±ï¿½!
 			st = new StringTokenizer(br.readLine());
-			// st¸¦ ÅëÇØ ³ª´µ¾îÁø °ÍµéÀ» intÇüÀ¸·Î ¹Ù²Ù¾î¼­ ´õÇØ¼­ Ãâ·ÂÇÏ±â + ¶óÀÎ ¹Ù²Ù±â
+			// stï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Íµï¿½ï¿½ï¿½ intï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù²Ù¾î¼­ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ + ï¿½ï¿½ï¿½ï¿½ ï¿½Ù²Ù±ï¿½
 			bw.write((Integer.parseInt(st.nextToken())+Integer.parseInt(st.nextToken())) + "\n");
 		}
 		
-		// for¹® ³¡³ª¸é Ãâ·ÂÇÏ´Â °Í ³¡³»±â.
+		// forï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 		bw.close();
 	}
 

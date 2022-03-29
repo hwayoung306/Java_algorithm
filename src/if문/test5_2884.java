@@ -1,4 +1,5 @@
-package if¹®;
+package ifë¬¸;
+
 
 import java.util.Scanner;
 
@@ -8,7 +9,7 @@ public class test5_2884 {
 		
 		Scanner sc = new Scanner(System.in);
 		int H = sc.nextInt();
-		int M = sc.nextInt(); //45ºÐ
+		int M = sc.nextInt(); //45ï¿½ï¿½
 
 		M = M - 45;
 		

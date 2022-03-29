@@ -1,5 +1,4 @@
-package while¹®;
-
+package whileë¬¸;
 import java.util.Scanner;
 
 public class test3_1110 {

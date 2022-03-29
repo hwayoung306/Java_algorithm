@@ -1,4 +1,4 @@
-package ÇÔ¼ö±¸Çö;
+package í•¨ìˆ˜êµ¬í˜„;
 
 import java.util.Scanner;
 
@@ -10,11 +10,11 @@ public class test {
 		int n = sc.nextInt();
 		
 		boolean check = false;
-		int a = (n % 10) - ((n / 10) % 10); // °¢ ÀÚ¸´¼öÀÇ Â÷
+		int a = (n % 10) - ((n / 10) % 10); // ï¿½ï¿½ ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 		
 		while (n != 0) {
 			if ((n % 10) - ((n / 10) % 10) == a) {
-				System.out.println("ÁøÀÔ");
+				System.out.println("ï¿½ï¿½ï¿½ï¿½");
 				check = true;
 				n /= 10;
 			} else {

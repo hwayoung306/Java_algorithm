@@ -1,5 +1,4 @@
-package for¹®;
-
+package forë¬¸;
 import java.util.Scanner;
 
 public class test5_2741 {

@@ -1,5 +1,4 @@
-package ¹è¿­1Â÷¿ø;
-
+package ë°°ì—´1ì°¨ì›;
 import java.util.Scanner;
 
 public class test5_1546 {

@@ -15,7 +15,7 @@ public class test7_2588 {
 		System.out.println(a*((b/10)%10));
 		System.out.println(a*(b/100));
 		
-		System.out.println( (a*(b%10)) + ((a*((b/10)%10))*10) + ((a*(b/100))*100)  );
+		System.out.println(a*b );
 	}
 
 }

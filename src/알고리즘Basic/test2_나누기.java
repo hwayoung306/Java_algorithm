@@ -8,21 +8,15 @@ public class test2_나누기 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int A = 0;
-		int B = 0;
+		int A = sc.nextInt();
+		int B = sc.nextInt();
 		
-		int check = sc.nextInt();
-		if(check > 0) {
-			A = check;
-		}
+		System.out.println((double)A/B);
 		
-		int check2 = sc.nextInt();
-		if(check2 < 10) {
-			B = check2;
-		}
 		
-		System.out.println((float)A/B);
-		
+		double c = sc.nextDouble();
+		double d = sc.nextDouble();
+		System.out.println(c/d);
 	}
 
 }

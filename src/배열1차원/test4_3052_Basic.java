@@ -2,7 +2,7 @@ package 배열1차원;
 
 import java.util.Scanner;
 
-public class test4_3052Hash {
+public class test4_3052_Basic {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
@@ -13,20 +13,19 @@ public class test4_3052Hash {
 		for (int i = 0; i < arr.length; i++) {
 			arr[i] = sc.nextInt() % 42;
 
-			
-				boolean check = false;
-				for (int j = 0; j < i; j++) {
-					if (arr[i] == arr[j]) {
-						check = true; // ���� ���� ���� ���
-						break;
-					} else {
-						check = false;
-					}
+			boolean check = false;
+			for (int j = 0; j < i; j++) {
+				if (arr[i] == arr[j]) {
+					check = true;
+					break;
+				} else {
+					check = false;
 				}
+			}
 
-				if (check == false) {
-					count++;
-				}
+			if (check == false) {
+				count++;
+			}
 
 		}
 

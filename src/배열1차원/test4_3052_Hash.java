@@ -3,7 +3,7 @@ package 배열1차원;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class test4_3052 {
+public class test4_3052_Hash {
 
 	public static void main(String[] args) {
 	
